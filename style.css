@@ -1,20 +1,20 @@
 body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    height: 3000px;
+    height: 1205px;
     margin: 0;
 }
 
-.container {
+.headers-container {
     display: flex;
     justify-content: center;
-    padding-top: 126px;
+    padding-top: 125px;
 }
 
 .first-header {
     background-color: #373e47;
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 300px;
     height: 50px;
@@ -22,6 +22,7 @@ body {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
+    z-index: 100;
 }
 
 .left-section {
@@ -62,7 +63,7 @@ body {
 .second-header {
     background-color: #373e47;
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 50px;
     width: 280px;
     height: 30px;
@@ -70,7 +71,9 @@ body {
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    z-index: 100;
 }
 
 .third-header {
@@ -84,7 +87,6 @@ body {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    border-top: 1px solid rgb(100, 100, 100);
 }
 
 .profile_photo {
@@ -125,7 +127,7 @@ body {
     background-color: #373e47;
     width: 320px;
     height: 160px;
-    margin-top: 5px;
+    margin-top: 1px;
 }
 
 .stories-reels-header {
@@ -133,7 +135,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 30px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -157,7 +159,6 @@ body {
     position: relative;
     width: 70px;
     height: 120px;
-    cursor: pointer;
 }
 
 .story-photo {
@@ -176,6 +177,7 @@ body {
     position: absolute;
     left: 5px;
     bottom: 5px;
+    cursor: pointer;
 }
 
 .story-profile-miniature {
@@ -188,4 +190,104 @@ body {
     position: absolute;
     left: 5px;
     top: 5px;
+    cursor: pointer;
+}
+
+.post-section {
+    background-color: #373e47;
+    width: 320px;
+    height: 300px;
+    margin-top: 5px;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.post-main {
+    background-color: red;
+    width: 320px;
+    height: 205px;
+}
+
+.post-footer {
+    background-color: white;
+    width: 320px;
+    height:- 60px;
+}
+
+.post-profile {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 102, 255);
+    margin-top: 3px;
+}
+
+.post-profile-name {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.post-timestamp {
+    display: inline-block;
+    font-size: 10px;
+    color: gray;
+    vertical-align: top;
+}
+
+.post-header-left {
+    display: inline-block;
+    height: 35px;
+    width: 120px;
+}
+
+.post-header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+
+.post-menu-btn {
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.post-close-btn {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.post-profile-info {
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    vertical-align: top;
+}
+
+.post-privacy {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    vertical-align: top;
+    margin-top: 1px;
+    cursor: pointer;
 }
