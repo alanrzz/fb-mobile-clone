@@ -196,7 +196,7 @@ body {
 .post-section {
     background-color: #373e47;
     width: 320px;
-    height: 300px;
+    height: 400px;
     margin-top: 5px;
 }
 
@@ -216,15 +216,14 @@ body {
 }
 
 .post-main {
-    background-color: red;
     width: 320px;
-    height: 205px;
+    height: 305px;
 }
 
 .post-footer {
     background-color: white;
     width: 320px;
-    height:- 60px;
+    height: 60px;
 }
 
 .post-profile {
@@ -290,4 +289,75 @@ body {
     vertical-align: top;
     margin-top: 1px;
     cursor: pointer;
+}
+
+.post-description {
+    color: white;
+    font-size: 15px;
+    height: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.new-photo {
+    width: 320px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-footer-sup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-footer-left {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.like-emoji, .sad-emoji,
+.love-emoji {
+    width: 15px;
+    height: 15px;
+}
+
+.like-emoji {
+    position: absolute;
+    left: 10px;
+}
+
+.sad-emoji {
+    position: absolute;
+    left: 23px;
+}
+
+.love-emoji {
+    position: absolute;
+    left: 36px;
+}
+
+.reaction-count {
+    color: gray;
+    font-size: 11px;
+    padding-left: 43px;
+}
+
+.comment-count,
+.share-count {
+    color: gray;
+    font-size: 11px;
+}
+
+.post-footer-right {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
