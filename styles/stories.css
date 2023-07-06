@@ -1,0 +1,74 @@
+.stories-reels-section {
+    background-color: #373e47;
+    width: 320px;
+    height: 160px;
+    margin-top: 1px;
+}
+
+.stories-reels-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.stories-title,
+.reels-title {
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(194, 194, 194);
+    cursor: pointer;
+}
+
+.stories-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.story {
+    position: relative;
+    width: 70px;
+    height: 120px;
+}
+
+.story-photo {
+    width: 70px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.story-username {
+    color: white;
+    font-weight: bold;
+    font-size: 8px;
+    width: 50px;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.story-profile-miniature {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 102, 255);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+}

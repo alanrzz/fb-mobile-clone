@@ -1,0 +1,203 @@
+.post-section {
+    background-color: #373e47;
+    width: 320px;
+    height: 402px;
+    margin-top: 5px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.post-header-left {
+    display: inline-block;
+    height: 35px;
+    width: 120px;
+}
+
+.post-profile {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 102, 255);
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.post-profile-info {
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    vertical-align: top;
+}
+
+.post-profile-name {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.post-timestamp {
+    display: inline-block;
+    font-size: 10px;
+    color: gray;
+    vertical-align: top;
+}
+
+.post-privacy {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    vertical-align: top;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.post-header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+
+.post-menu-btn {
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.post-close-btn {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.post-main {
+    width: 320px;
+    height: 305px;
+}
+
+.post-description {
+    color: white;
+    font-size: 15px;
+    height: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.news-photo {
+    width: 320px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-footer {
+    width: 320px;
+}
+
+.post-footer-sup {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.post-footer-sup-left {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 1fr;
+    cursor: pointer;
+}
+
+.like-emoji, .sad-emoji,
+.love-emoji {
+    width: 15px;
+    height: 15px;
+}
+
+.like-emoji {
+    position: absolute;
+    left: 0;
+}
+
+.sad-emoji {
+    position: absolute;
+    left: 13px;
+}
+
+.love-emoji {
+    position: absolute;
+    left: 26px;
+}
+
+.reaction-count {
+    color: gray;
+    font-size: 11px;
+    padding-left: 45px;
+}
+
+.post-footer-sup-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1fr;
+    cursor: pointer;
+}
+
+.comment-count,
+.comment-share-separator,
+.share-count {
+    color: gray;
+    font-size: 11px;
+    padding-left: 3px;
+}
+
+.post-footer-inf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top: 1px solid gray;
+}
+
+.post-footer-inf-left, .post-footer-inf-middle,
+.post-footer-inf-right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.post-like-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.post-comment-logo,
+.post-share-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.like, .comment, .share {
+    color: gray;
+    font-size: 13px;
+    margin-left: 4px;
+}
