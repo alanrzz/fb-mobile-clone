@@ -1,7 +1,7 @@
 body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    height: 1205px;
+    height: 1550px;
     margin: 0;
 }
 
@@ -196,7 +196,7 @@ body {
 .post-section {
     background-color: #373e47;
     width: 320px;
-    height: 400px;
+    height: 402px;
     margin-top: 5px;
 }
 
@@ -213,6 +213,7 @@ body {
     height: 35px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 5px;
 }
 
 .post-main {
@@ -221,9 +222,7 @@ body {
 }
 
 .post-footer {
-    background-color: white;
     width: 320px;
-    height: 60px;
 }
 
 .post-profile {
@@ -232,6 +231,7 @@ body {
     border-radius: 20px;
     border: 2px solid rgb(0, 102, 255);
     margin-top: 3px;
+    cursor: pointer;
 }
 
 .post-profile-name {
@@ -239,6 +239,7 @@ body {
     color: white;
     font-weight: bold;
     display: inline-block;
+    cursor: pointer;
 }
 
 .post-timestamp {
@@ -310,15 +311,18 @@ body {
 .post-footer-sup {
     display: flex;
     justify-content: space-between;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.post-footer-left {
+.post-footer-sup-left {
     display: flex;
     position: relative;
     align-items: center;
-    width: 100px;
-    padding-left: 10px;
-    padding-top: 5px;
+    width: 1fr;
+    cursor: pointer;
 }
 
 .like-emoji, .sad-emoji,
@@ -329,35 +333,71 @@ body {
 
 .like-emoji {
     position: absolute;
-    left: 10px;
+    left: 0;
 }
 
 .sad-emoji {
     position: absolute;
-    left: 23px;
+    left: 13px;
 }
 
 .love-emoji {
     position: absolute;
-    left: 36px;
+    left: 26px;
 }
 
 .reaction-count {
     color: gray;
     font-size: 11px;
-    padding-left: 43px;
+    padding-left: 45px;
+}
+
+.post-footer-sup-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1fr;
+    cursor: pointer;
 }
 
 .comment-count,
+.comment-share-separator,
 .share-count {
     color: gray;
     font-size: 11px;
+    padding-left: 3px;
 }
 
-.post-footer-right {
+.post-footer-inf {
     display: flex;
     align-items: center;
-    width: 100px;
-    padding-left: 10px;
-    padding-top: 5px;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top: 1px solid gray;
+}
+
+.post-like-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.post-comment-logo,
+.post-share-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.post-footer-inf-left, .post-footer-inf-middle,
+.post-footer-inf-right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.like, .comment, .share {
+    color: gray;
+    font-size: 13px;
+    margin-left: 4px;
 }
